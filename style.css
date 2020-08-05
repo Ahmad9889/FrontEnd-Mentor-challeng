@@ -1,0 +1,156 @@
+body {
+  background-color: #1c2431;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+  width: 90%;
+  margin: 3rem auto;
+  font-family: 'Raleway', sans-serif;
+  width: 50px 50px;
+}
+.nav-link{
+  color: #e4e3e3;
+  margin: auto 2rem;
+}
+h3{
+  font-size: 40px;
+  margin: 3.5rem auto 1.9rem;
+  width: 45%;
+  font-family: 'Raleway', sans-serif;
+  Weight: bold;
+}
+.illustration-intro{
+  width: 55%;
+  margin: 100px;;
+}
+@media (max-width: 500px) {
+  h3{
+    width: 65%;
+    font-size: 20px;
+  }
+  .heading-paragraph{
+    font-size: 14px;
+    width: 90%;
+    color: red;
+  }
+  .card-text{
+    width: 100%;
+  }
+}
+.heading-paragraph{
+  margin: auto;
+  width: 27%;
+  font-size: 14px;
+  color: #61879e;
+}
+.btn{
+  color: #fff;
+  background-color: #24addb;
+  margin-top: 100px;
+  padding: 10px 60px;
+  border-radius: 50px;
+}
+.curvy-img{
+  width: 100%;
+  position: relative;
+  z-index: -1;
+  bottom: 350px;
+  margin: auto;
+}
+.Propertiess{
+  background-color: #1c2431;
+  margin: 0 50px;
+}
+.card-icon{
+  margin: auto;
+  width: 13%;
+}
+.properties-text{
+  margin: auto;
+  width: 50%;
+}
+.Propertiess{
+  margin: auto;
+}
+.stay-productive{
+  text-align: left;
+}
+.collaboration{
+  margin: 100px;
+}
+.collaboration-heading{
+  width: 80%;
+  font-size: 60px;
+  margin: 1.4rem 0;
+}
+.collaboration-link{
+    color: #24addb;
+    text-decoration: underline;
+    margin-right: 7px;
+}
+.collaboration-body{
+  margin-top: 50px;
+}
+.testimonial{
+  background-color: #1c2431;
+  margin: 100px;
+  text-align: left;
+}
+.profile-1{
+  width: 10%;
+  border-radius: 50%;
+}
+.testi-text{
+  color: #e4e3e3;
+  text-align: center;
+}
+.testi-container{
+  margin: 100px;
+}
+.testi-container div{
+  background-color:  #202a3c;
+  padding: 50px;
+}
+.Get-started{
+  background-color: #202a3c;
+  padding: 100px 50px;
+}
+.get-started-text{
+  width: 60%;
+  margin: auto;
+  color: #e4e3e3;
+}
+.email-signUp{
+  width: 100%;
+  height: 55px;
+  border-radius: 50px;
+}
+.btn {
+  /* position: absolute; */
+  margin: auto 20px;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:42px;
+	border:1px solid #0b0e07;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:19px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+	&:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+ &:active {
+	position:relative;
+	top:1px;
+}
+ }
